@@ -10,7 +10,8 @@ from django.core.files.storage import default_storage
 from django.db import models
 from django.utils.timezone import utc
 
-from money.contrib.django.models.fields import MoneyField
+# from money.contrib.django.models.fields import MoneyField
+from djmoney.models.fields import MoneyField
 from model_utils.managers import InheritanceManager
 from mangopaysdk.entities.usernatural import UserNatural
 from mangopaysdk.entities.userlegal import UserLegal
